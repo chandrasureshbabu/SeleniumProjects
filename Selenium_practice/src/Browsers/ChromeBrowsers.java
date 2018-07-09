@@ -10,6 +10,7 @@ public class ChromeBrowsers {
 		System.setProperty("webriver.chrome.driver", "D:\\Selenium Stuff\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("http://google.com");
+		System.out.println(driver.getPageSource());
 		
 		
 		}
