@@ -11,7 +11,6 @@ public class ChromeBrowsers {
 		WebDriver driver= new ChromeDriver();
 		driver.get("http://google.com");
 		
-
-	}
-
+		
+		}
 }
