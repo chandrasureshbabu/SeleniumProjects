@@ -13,14 +13,18 @@ public class ByID_InChrome_Exc {
 		
 		driver.get("http://facebook.com");
 		
+		//By.id("ID")
 		driver.findElement(By.id("email")).sendKeys("sureshnemani@gmail.com");
+		//By.name("name")
 		driver.findElement(By.name("pass")).sendKeys("password1");
+		//Getting Current URL + Page Title
 		System.out.println("Page URL :" +driver.getCurrentUrl()+ "--||||||--" +" Page Title :" + driver.getTitle());
 		
-		
+		//By.linktext("link Text");
 		driver.findElement(By.linkText("Forgotten account?")).click();
+		//Getting Current URL + Page Title
 		System.out.println("Page URL :" +driver.getCurrentUrl()+ "--||||||--" +" Page Title :" + driver.getTitle());
-		driver.close();
+		driver.quit();
 		
 
 	}
