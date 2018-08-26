@@ -31,7 +31,6 @@ public class CustomizedLocators {
 		// driver.findElement(By.cssSelector("[name*='procee']")).click(); /* wrkng ---customized regular exp css :tagname[attribue*='value'] */
 		
 		driver.quit();
-		
 
 	}
 
