@@ -12,6 +12,7 @@ public class Locator_Parent_To_Child_Xpth {
 		WebDriver driver= new ChromeDriver();
 		driver.get("http://google.com");
 		driver.findElement(By.xpath("//div[@class='lst-c']/div/div[2]/div/input")).sendKeys("seleniumHq");
+		
 		//driver.findElement(By.xpath("//div[@class='tsf-p']/div[3]/center/input[1]")).click();
 		driver.quit();
 		
