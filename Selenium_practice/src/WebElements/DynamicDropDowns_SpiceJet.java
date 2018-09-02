@@ -17,7 +17,7 @@ public class DynamicDropDowns_SpiceJet {
 		System.out.println(driver.findElement(By.xpath(".//*[@id='dropdownGroup1']/div/ul[2]/li[5]/a")).isDisplayed());
 		driver.findElement(By.xpath(".//*[@id='dropdownGroup1']/div/ul[2]/li[5]/a")).click();
 		driver.findElement(By.xpath(".//*[@id='ctl00_mainContent_ddl_destinationStation1_CTXT']")).click();
-		//driver.findElement(By.xpath("(//*[@value='GOI'])[2]")).click();
+		//driver.findElement(By.xpath("(//*[@value='GOI'])[2]")).click(); with this xpath elements cannot visisble you must get with parent as below 
 		System.out.println((driver.findElement(By.xpath("(.//*[@id='dropdownGroup1']/div/ul[2]/li[1]/a)[2]")).isDisplayed()));
 		driver.findElement(By.xpath("(.//*[@id='dropdownGroup1']/div/ul[2]/li[2]/a)[2]")).click();
 		driver.quit();
